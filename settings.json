@@ -1,16 +1,16 @@
 {
-    "gateways": {
-       "ipfs": {
-          "host": "127.0.0.1",
-          "port": "5001"
-       },
-       "blockchain": {
-          "host": "172.18.33.1",
-          "port": "8545"
-       }
-    },
-    "keys": {
-        "public": "0x93485BC6f2bd06F8d92A1ACf18A782134e25B1a2",
-        "private": "0x7f7cfdbfdd1def44ade7ea65b83ae8cece79fc7e8843527970e774dfdb280eaf"
-    }
- }
+   "gateways": {
+      "ipfs": {
+         "host": "127.0.0.1",
+         "port": "5001"
+      },
+      "blockchain": {
+         "host": "172.18.33.1",
+         "port": "8545"
+      }
+   },
+   "keys": {
+       "public": "0x34317233696eab22067c31f257659AD54a83C108",
+       "private": "0x3f5958bb8b7c88d7e9c2b80d07571406336dbabb80125dcbb0383456557f5d1b"
+   }
+}
