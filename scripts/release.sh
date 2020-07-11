@@ -1,2 +1,2 @@
 # ZIP THE LAUNCHER
-zip -r launcher.zip launcher
+zip -r middleware.zip launcher patcher
