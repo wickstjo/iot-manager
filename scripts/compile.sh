@@ -6,8 +6,8 @@ rm -rf middleware.zip
 mkdir release/
 
 # CONVERT NOTEBOOKS TO SCRIPTS
-ipynb-py-convert src/launcher.ipynb launcher.py
-ipynb-py-convert src/patcher.ipynb patcher.py
+ipynb-py-convert launcher.ipynb launcher.py
+ipynb-py-convert patcher.ipynb patcher.py
 
 # ------- LAUNCHER
 
@@ -40,7 +40,7 @@ mv dist/patcher release/patcher
 rm -rf dist/
 
 # COPY CONFIG DIR
-cp -r src/config release/config
+cp -r config release/config
 
 # CREATE CHECKSUM FILE
 python3 scripts/checksum.py
