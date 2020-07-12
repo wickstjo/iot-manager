@@ -1,12 +1,13 @@
 # REMOVE OLD FILES
-rm -rf launcher
-rm -rf launcher.zip
-rm -rf launcher.py
-rm -rf patcher.py
+rm -rf release/
+rm -rf middleware.zip
+
+# REMAKE THE DIRECTORY
+mkdir release/
 
 # CONVERT NOTEBOOKS TO SCRIPTS
-ipynb-py-convert launcher.ipynb launcher.py
-ipynb-py-convert patcher.ipynb patcher.py
+ipynb-py-convert src/launcher.ipynb launcher.py
+ipynb-py-convert src/patcher.ipynb patcher.py
 
 # ------- LAUNCHER
 
@@ -20,7 +21,7 @@ rm -rf launcher.spec
 rm -rf launcher.py
 
 # MOVE LAUNCHER FILE & REMOVE DIST DIR
-mv dist/launcher .
+mv dist/launcher release/launcher
 rm -rf dist/
 
 # ------- PATCHER
@@ -35,5 +36,17 @@ rm -rf patcher.spec
 rm -rf patcher.py
 
 # MOVE LAUNCHER FILE & REMOVE DIST DIR
-mv dist/patcher .
+mv dist/patcher release/patcher
 rm -rf dist/
+
+# COPY CONFIG DIR
+cp -r src/config release/config
+
+# CREATE CHECKSUM FILE
+python3 scripts/checksum.py
+
+# ZIP EVERYTHING
+zip -j middleware.zip release/launcher release/patcher release/checksums.json
+
+# REMOVE THE CHECKSUM FILE
+rm -rf release/checksums.json
