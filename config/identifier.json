@@ -1,5 +1,6 @@
 {
     "Manufacturer": "Beispiel GmbH",
+    "location": "helsinki",
     "Name": "Example-Device",
     "SerialNumber": "D1.0",
     "Type": "example device",
