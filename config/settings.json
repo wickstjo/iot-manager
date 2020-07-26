@@ -5,13 +5,13 @@
          "port": "5001"
       },
       "blockchain": {
-         "host": "192.168.88.128",
-         "port": 8080
+         "host": "172.18.33.1",
+         "port": "8545"
       }
    },
    "keys": {
-      "public": "0x34317233696eab22067c31f257659AD54a83C108",
-      "private": "0x3f5958bb8b7c88d7e9c2b80d07571406336dbabb80125dcbb0383456557f5d1b"
+      "public": "0xa58AF0c4a5AA26DEED9858A9CC989E1aFeAc2f47",
+      "private": "0x548714eb5f363f8c477c496846ed19b372688a177689316b054f02a45365d98a"
    },
    "whisper": {
       "network": "cb484a765a4a7c66f565084d083d3a01c6e5941c1fd8ff42559d97ea02e835f5",
