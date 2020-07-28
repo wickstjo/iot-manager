@@ -1,8 +1,8 @@
 {
    "gateways": {
-      "ipfs": {
-         "host": "127.0.0.1",
-         "port": "5001"
+      "whisper": {
+         "host": "192.168.88.128",
+         "port": 8080
       },
       "blockchain": {
          "host": "172.18.33.1",
@@ -10,11 +10,14 @@
       }
    },
    "keys": {
-      "public": "0xa58AF0c4a5AA26DEED9858A9CC989E1aFeAc2f47",
-      "private": "0x548714eb5f363f8c477c496846ed19b372688a177689316b054f02a45365d98a"
+      "public": "0x2321C492e48EAdB1dE43e3207Ef9dAd406750d5c",
+      "private": "0x982fdf6ebb671842517c511d03b775d4cb7411ae0ab6cdf3618d2885410e077c"
    },
    "whisper": {
-      "network": "cb484a765a4a7c66f565084d083d3a01c6e5941c1fd8ff42559d97ea02e835f5",
+      "topic": {
+         "key": "cb484a765a4a7c66f565084d083d3a01c6e5941c1fd8ff42559d97ea02e835f5",
+         "name": "arca" 
+      },
       "id": ""
    }
 }
