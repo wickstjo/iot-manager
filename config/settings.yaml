@@ -1,0 +1,14 @@
+# ETHEREUM GATEWAY
+gateway:
+    host: 192.168.88.128
+    port: 8080
+
+# ETHEREUM KEYS
+keys:
+    public: '0x83f3ab84E3641c9198C0a514643113EF164c7E33'
+    private: '0xec9b51e5bf44b690fece1bfa5a1a9c255d2af9a2838a5711e95ab5a09a39a337'
+
+# WHISPER PARAMS
+whisper:
+    topic: arca
+    symkey: 8dc916a328e3d2e8153dc5bd4e009de549146d8fde62ca021bdd037d006c3128
