@@ -7,7 +7,7 @@ This is one out of four repositories that cover the project created for my bache
 | Name          | Repository    |
 | ------------- |:-------------:|
 | Smart Contract Backend      | [https://github.com/wickstjo/oracle-manager](https://github.com/wickstjo/oracle-manager) |
-| Middleware Interpreter      | [https://github.com/wickstjo/oracle-manager](https://github.com/wickstjo/iot-manager) |
+| Middleware Interpreter      | [https://github.com/wickstjo/iot-manager](https://github.com/wickstjo/iot-manager) |
 | Frontend Application        | [https://github.com/wickstjo/distributed-task-manager](https://github.com/wickstjo/distributed-task-manager)|
 | Private Blockchain          | [https://github.com/wickstjo/thesis-chain](https://github.com/wickstjo/thesis-chain) |
 
